@@ -63,7 +63,7 @@ function jsTask() {
         },
         entry: `${cfg.src.js.main}/app`,
         output: {
-          filename: 'script.js'
+          filename: 'app.js'
         },
         plugins: [new UglifyJsPlugin()]
       })

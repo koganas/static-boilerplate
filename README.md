@@ -5,6 +5,7 @@ A simple static boilerplate (html, js and css) with support for gulp-include, js
 - Support for [gulp-include](https://github.com/wiledal/gulp-include)
 - PostCSS
 - JS Modules (ES2016)
+- Browsersync
 
 ## Requirements
 - Node 14.16.1
