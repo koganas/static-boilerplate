@@ -1,5 +1,5 @@
 # Static boilerplate
-A simple static boilerplate (html, js and css) with support for gulp-include, js modules and postcss.
+A simple static boilerplate (html, js and css).
 
 ## Features
 - Support for [gulp-include](https://github.com/wiledal/gulp-include)
