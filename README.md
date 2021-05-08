@@ -14,16 +14,16 @@ A simple static boilerplate (html, js and css).
 ## Dev
 Installation
 
-`
+```
 yarn
 // or
 npm install
-`
+```
 
 Watch/Build
-`
+```
 gulp
-`
+```
 
 
 ### ESLint settings
