@@ -1,6 +1,11 @@
 # Static boilerplate
 A simple static boilerplate (html, js and css) with support for gulp-include, js modules and postcss.
 
+## Features
+- Support for [gulp-include](https://github.com/wiledal/gulp-include)
+- PostCSS
+- JS Modules (ES2016)
+
 ## Requirements
 - Node 14.16.1
 - Gulp cli
