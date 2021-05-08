@@ -10,17 +10,20 @@ A simple static boilerplate (html, js and css).
 ## Requirements
 - Node 14.16.1
 - Gulp cli
-- Yarn or npm (optional)
 
 ## Dev
 Installation
 
-```yarn```
+`
+yarn
+// or
+npm install
+`
 
 Watch/Build
-
-```gulp```
-
+`
+gulp
+`
 
 
 ### ESLint settings
