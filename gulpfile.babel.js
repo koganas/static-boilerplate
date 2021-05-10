@@ -106,6 +106,11 @@ function watchTask() {
     series(buildHtml, browsersyncReload)
   )
   watch([
+    `${cfg.src.img}/*`],
+    { interval: 1000 },
+    imgTask
+  )
+  watch([
     `${cfg.src.css}/**/*.css`, `${cfg.src.js.main}/**/*.js`],
     { interval: 1000 },
     series(parallel(cssTask, jsTask), browsersyncReload)
