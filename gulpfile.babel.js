@@ -16,9 +16,10 @@ const rucksack = require('rucksack-css')
 const cssnano = require('cssnano')
 const cssPresetEnv = require('postcss-preset-env')
 const customProperties = require('postcss-custom-properties')
+const postcssCustomMedia = require('postcss-custom-media');
 const customSelector = require('postcss-custom-selectors')
 const autoprefixer = require('autoprefixer')
-const processors = [preCSS(), cssPresetEnv(), rucksack(), customSelector(), customProperties(), cssnano(), autoprefixer()]
+const processors = [preCSS(), cssPresetEnv(), rucksack(), customSelector(), customProperties(), cssnano(), autoprefixer(), postcssCustomMedia()]
 
 /** js */
 const eslint = require('gulp-eslint')

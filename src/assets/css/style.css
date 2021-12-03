@@ -1,4 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-}
+@import 'general/_reset';
+@import 'general/_breakpoints';
+@import 'general/_colors';
